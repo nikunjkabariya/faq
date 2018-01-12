@@ -1,0 +1,24 @@
+{
+    "name": "nikunjkumar.kabariya/faq",
+    "description": "FAQ Management",
+    "type": "project-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikunj Kabariya",
+            "email": "nikunjkumar.kabariya@brainvire.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nikunjkabariya\\Faq\\ServiceProviders\\FaqServiceProvider"
+            ],
+            "aliases": {
+                "Facade": "Nikunjkabariya\\Faq\\Facades\\FaqFacade"
+            }
+        }
+    },
+    "require": {}
+}
