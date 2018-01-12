@@ -9,7 +9,7 @@
             "email": "nikunjkumar.kabariya@brainvire.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "1.0",
     "extra": {
         "laravel": {
             "providers": [
